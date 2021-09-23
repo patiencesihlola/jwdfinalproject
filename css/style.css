@@ -3,7 +3,7 @@ body{
 }
 
 
-#form {
+#addform {
 background-color: lightblue;
 border-radius: 30px;
 padding: 20px 30px;
@@ -18,7 +18,7 @@ p {
 
 .form-label {
    margin-top: 2%;
-}
+ }
 
 .btn-primary {
     margin-top: 5%;

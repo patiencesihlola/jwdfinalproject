@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>jwdfinalprojetc!</title>
+    <title>jwdfinalproject!</title>
 
     <link rel="stylesheet"  href="./css/style.css">
   </head>
@@ -17,24 +17,23 @@
    <div class="container-fluid">
 <!---->
     <!--Form information starts here-->
-    <div id="error"></div>
     <section class="d-flex flex-column mx-auto col-lg-4 col-md-8 col-sm-12">
-      <form name="Add Task" id="addform">
+            <form name="addTask" action="/" id="addform" method="GET">
 
         <div class="col">    
-          <label for="name" class="form-label">Name:</label>
-          <input type="text" class="form-control" id="name" required>
-        </div><br>
+          <label for="name" class="form-label success">Name:</label>
+          <input type="text" class="form-control" id="nameinput" placeholder="Enter Name">
+                  </div><br>
 
         <div class="col">
-          <label for="description" class="form-label">Description:</label>
-          <textarea class="form-control" id="description" name="description" rows="3" cols="30"></textarea>
-        </div><br>
+          <label for="description" class="form-label Error">Description:</label>
+          <textarea class="form-control" id="description" name="description" rows="3" cols="30" placeholder="Enter description"></textarea>
+                 </div><br>
 
         <div class="col">
           <label for="assign" class="form-label">Assigned To:</label>
-          <input type="text" class="form-control" id="assign" required>
-        </div><br>
+          <input type="text" class="form-control" id="assign" placeholder="Assign someone">
+                  </div><br>
 
         <div class="col">
           <label for="inputState" class="form-label">Status</label>
@@ -48,13 +47,13 @@
 
         <div class="col">
           <label for="date" class="form-label">Due Date:</label>
-          <input type="date" class="form-control" id="date">
+          <input type="date" class="form-control" id="date" placeholder="Enter valid date">
         </div>
 
         <div class="col">
           <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
           <button type="submit" class="btn btn-primary" id="resetBtn">Reset</button>
-        </div>
+              </div>
 
         </form>
       </section>
@@ -92,7 +91,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  <script src="./index.js"></script>
+  <script type="text/javascript" src="index.js"></script>
   </div>
   </body>
 </html>
